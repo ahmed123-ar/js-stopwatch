@@ -64,9 +64,9 @@ body{
         justify-content: center;
     }
 
-    #time div{
-        margin-left: 40px;
-    }
+    #time{
+        width: 60vh;
+    } 
 
     #buttons button{
         margin-left: 20px;

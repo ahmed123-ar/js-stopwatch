@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(183, 183, 183);
+}
+
+#time{
+    display: flex;
+    flex-direction: row;
+    width: 80vh;
+    height: 20vh;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    width: 80vh;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#buttons button{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
